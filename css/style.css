@@ -1,0 +1,1145 @@
+/* pop up wa */
+.btn-floating {
+  position: fixed;
+  right: 25px;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  border: 0;
+  z-index: 9999;
+  color: white;
+  transition: 0.2s;
+}
+
+.btn-floating:hover {
+  width: auto;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.btn-floating span {
+  font-size: 16px;
+  margin-left: 5px;
+  transition: 0.2s;
+  line-height: 0px;
+  display: none;
+}
+
+.btn-floating:hover span {
+  display: inline-block;
+}
+
+.btn-floating img {
+  width: 35px;
+  margin-top: 5px;
+}
+
+.btn-floating:hover img {
+  margin-bottom: -3px;
+}
+
+.btn-floating.whatsapp {
+  bottom: 25px;
+  background-color: #34af23;
+  border: 2px solid #fff;
+}
+
+.btn-floating.whatsapp:hover {
+  background-color: #1f7a12;
+}
+
+/* NAVBAR */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+img {
+  padding-bottom: 15px;
+}
+
+.navigation {
+  background-color: white;
+  position: relative;
+  z-index: 100;
+}
+
+.navbar-brand {
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+#navbarNav a {
+  color: white;
+}
+.collapse ul li a:hover {
+  color: #ff0062;
+}
+
+/* HOME */
+
+#hero {
+  width: 100%;
+  height: 97vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(255, 0, 102, 0.749)), url("/aset/img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero-tagline h1 {
+  padding-top: 100px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 55px;
+  margin-left: 50px;
+}
+
+.hero-tagline p {
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 30px;
+  width: 70%;
+  margin-left: 50px;
+}
+
+.img-hero {
+  width: 800px;
+  height: 550px;
+  left: 600px;
+  padding-bottom: -20;
+}
+
+.butoon {
+  width: 200px;
+  height: 50px;
+  background-color: #ffdd00;
+  border-radius: 5px;
+  border-color: #4d002f;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 50px;
+}
+
+.butoon:hover {
+  box-shadow: 1px 1px 10px rgb(23, 23, 23);
+  transition: 0.3s;
+}
+
+.hero-portofolio {
+  text-decoration: none;
+}
+
+/* VISI MISI */
+
+#visi {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  height: 500px;
+}
+
+.visi h4 {
+  padding-top: 50px;
+  font-weight: 600;
+  font-size: 40px;
+  color: #ffdd00;
+}
+.prg-visi {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #4d002f;
+}
+
+.prg-misi {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #4d002f;
+}
+
+.foto-visi-misi {
+  height: 550px;
+  width: 350px;
+  margin-left: 150px;
+}
+
+/* layanan */
+
+#layanan {
+  padding: 50px 0;
+  background-color: #ffffff;
+  padding-bottom: 20px;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #4d002f;
+}
+
+p {
+  font-size: 12px;
+}
+
+.sub.title {
+  font-size: 18px;
+  color: #000;
+}
+
+.card {
+  border-radius: 5px;
+  background-color: #ff0062;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 10px gray;
+  transition: 0.3s;
+}
+
+.btn-layanan {
+  background-color: #4d002f;
+  border-radius: 5px;
+  width: 228px;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.btn-layanan:hover {
+  background-color: white;
+  border-style: solid;
+  color: #4d002f;
+  transition: 00.3s;
+}
+
+.btn-blok {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-blok:hover {
+  color: #4d002f;
+}
+
+.card-img-top {
+  width: 250px;
+  height: 180px;
+  padding: 20px;
+}
+
+/* pemaparan */
+
+#pemaparan {
+  margin-top: 10px;
+  background-color: #f2fbff;
+  height: 300px;
+}
+
+.p-pemaparan {
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+/* deskrip */
+
+#deskrip {
+  padding: 50px 0;
+  background-color: #ffffff;
+}
+
+.img-deskrip {
+  padding-top: 10px;
+  height: 700px;
+  width: 600px;
+  margin-left: 19px;
+}
+
+.img-deskrips {
+  padding-top: 40px;
+  height: 550px;
+  width: 350px;
+  margin-left: 150px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.pragraf p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.card-deskrip {
+  background: linear-gradient(80deg, #ffc800, #ff009d);
+  border-radius: 5px;
+  height: 130px;
+  width: 520px;
+  margin-bottom: 17px;
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.card-deskrip img {
+  height: 100px;
+  width: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.card-deskrip h3 {
+  margin-left: 10px;
+  padding-top: 10px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.card-deskrip p {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* contact */
+
+#contact {
+  background: linear-gradient(80deg, #ff0062, #000000);
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.card-alamat {
+  height: 300px;
+  width: 450px;
+}
+
+.card-alamat h3 {
+  color: white;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.card-alamat p {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+/* PEMESANAN AWAL */
+
+#pemesanan {
+  width: 100%;
+  height: 300px;
+  background-color: #ff0062;
+}
+
+.pemesanan-tagline h1 {
+  padding-top: 150px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 55px;
+  margin-top: 20px;
+}
+
+.pemesanan-tagline p {
+  font-size: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 15px;
+}
+
+#cara_pemesanan {
+  background-color: white;
+}
+
+#cara_pemesanan h1 {
+  margin-top: 320px;
+  font-weight: 700;
+  font-size: 50px;
+  color: #4d002f;
+  margin-right: 50px;
+}
+
+/* cata pemesanan pada page testimoni */
+
+#cara_pemesanan_testi {
+  background-color: white;
+}
+
+#cara_pemesanan_testi h1 {
+  margin-top: 100px;
+  font-weight: 700;
+  font-size: 50px;
+  color: #4d002f;
+  margin-right: 50px;
+}
+
+.foto_pemesanan_testi img {
+  height: 500px;
+  width: 500px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+/* akhir cata pemesanan pada page testimoni */
+
+.card-cara-pemesanan {
+  background-color: #ffc800;
+  border-radius: 10px;
+  height: 90px;
+  width: 450px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-cara-pemesanan:hover {
+  box-shadow: 2px 2px 7px rgb(78, 78, 78);
+  transition: 0.3s;
+}
+.card-cara-pemesanan img {
+  height: 70px;
+  width: 50px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.btn-pemesanan h3 {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.btn-pemesanan p {
+  margin-left: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.foto_pemesanan img {
+  height: 500px;
+  width: 500px;
+  margin-top: 250px;
+  margin-bottom: 30px;
+}
+
+#tata-cara {
+  background-color: #ffffff;
+  padding-bottom: 40px;
+}
+
+.tata-cara {
+  margin-top: 20px;
+}
+.teks-tatacara {
+  font-weight: 600;
+  color: #4d002f;
+}
+.tata-cara p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.tata-cara img {
+  height: 100px;
+  width: 90px;
+  margin-left: 80px;
+}
+
+.seruan h2 {
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 600;
+  /* margin-left: 250px;
+  margin-right: 250px; */
+  line-height: 50px;
+  margin-right: 50px;
+}
+
+.btn-primary {
+  height: 37px;
+  width: 152px;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  box-shadow: 1px 1px 5px gray;
+  transition: 0.3s;
+}
+
+.card-seruan {
+  margin-top: 20px;
+  height: 100px;
+  width: 550px;
+  border-style: solid;
+  color: #ffc800;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-seruan:hover {
+  box-shadow: 1px 1px 10px gray;
+  transition: 0.3s;
+}
+
+.card-seruan p {
+  font-size: 15px;
+  padding-top: 12px;
+  color: #4d002f;
+  padding-left: 10px;
+}
+
+.card-seruan h5 {
+  padding-top: 15px;
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #4d002f;
+}
+
+footer {
+  height: 80px;
+  background-color: #ff0062;
+}
+
+footer p {
+  padding-top: 3ex;
+  font-size: 14px;
+  color: white;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+.akhir-footer {
+  font-size: 12px;
+}
+
+/* PORTOFOIO */
+
+.image-portofolio {
+  height: 510px;
+  width: 1275px;
+  padding-left: 0%;
+  margin-top: 80px;
+}
+
+.isi-portofolio h1 {
+  font-weight: 700;
+  color: #4d002f;
+}
+.isi-portofolio p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.btn-konsul {
+  width: 200px;
+  height: 35px;
+  background-color: #ffc800;
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-left: 320px;
+  margin-top: 60px;
+}
+
+.btn-konsul:hover {
+  box-shadow: 1px 1px 20px gray;
+  transition: 0.3s;
+}
+
+.btn-konsultasi {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.card-koleksi {
+  background-color: #ffc800;
+  height: 455px;
+  width: 240px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.card-koleksi:hover {
+  box-shadow: 3px 3px 20px gray;
+  transition: 0.3s;
+}
+
+.poster-koleksi {
+  width: 240px;
+  height: 360px;
+  border-radius: 6px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 100;
+  text-align: center;
+  padding: 30px 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.1s ease-out;
+}
+
+.overlay img {
+  width: 330px;
+  height: 550px;
+  margin: auto 0;
+}
+
+.overlay:target {
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: all 0.1s ease-in;
+}
+
+.h5-poster {
+  padding-left: 10px;
+}
+
+.teks-poster {
+  padding-left: 10px;
+  padding-top: 0px;
+  font-size: 13px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.card-company-profile {
+  background: linear-gradient(200deg, #ffc800, #ff009d);
+  height: 485px;
+  width: 550px;
+  border-radius: 6px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.card-company-profile:hover {
+  box-shadow: 3px 3px 20px gray;
+  transition: 0.3s;
+}
+
+.company-profile-koleksi {
+  width: 740px;
+  height: 500px;
+  border-radius: 6px;
+}
+
+.h5-company-profile {
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.teks-company-profile {
+  padding-left: 10px;
+  margin-top: 2px;
+  padding-right: 20px;
+  font-size: 15px;
+}
+
+.btn-company-prodile {
+  width: 200px;
+  height: 35px;
+  background-color: #0051ff;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding-top: 5px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.btn-company-profile {
+  color: #ffffff;
+  height: 450px;
+  width: 240px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.card-sosmed {
+  background-color: #ff0040;
+  height: 495px;
+  width: 240px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.card-sosmed:hover {
+  box-shadow: 2px 2px 10px gray;
+  transition: 0.3s;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+/* .card-klien {
+  height: 400px;
+  width: 1100px;
+  background-color: #ffffff;
+  border-style: outset;
+  border-radius: 6px;
+  margin-top: 50px;
+  border-color: #4d002f;
+} */
+
+.foto-klien {
+  height: 200px;
+  width: 120px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.foto-klien2 {
+  height: 150px;
+  width: 270px;
+  margin-top: 50px;
+  margin-left: -60px;
+}
+
+.foto-klien3 {
+  height: 100px;
+  width: 250px;
+  margin-top: 70px;
+  margin-left: 0px;
+}
+
+.foto-klien4 {
+  margin-left: 40px;
+  margin-top: 70px;
+}
+
+.foto-klien5 {
+  height: 150px;
+  width: 150px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.foto-klien6 {
+  height: 150px;
+  width: 150px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+
+.foto-klien7 {
+  height: 150px;
+  width: 250px;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.foto-klien8 {
+  height: 120px;
+  width: 220px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.foto-klien9 {
+  height: 180px;
+  width: 170px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.foto-klien10 {
+  height: 180px;
+  width: 170px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.foto-klien11 {
+  height: 220px;
+  width: 220px;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.foto-klien12 {
+  height: 180px;
+  width: 170px;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+
+.foto-klien13 {
+  height: 90px;
+  width: 350px;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+.foto-klien14 {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.foto-klien15 {
+  height: 150px;
+  width: 130px;
+  margin-top: 10px;
+  margin-left: 500px;
+}
+
+#kontak-footer {
+  background-color: #ffc800;
+  height: 250px;
+  width: 1275px;
+  margin-top: 15px;
+}
+
+#footer-portofolio {
+  width: 1275px;
+}
+
+.kontak-footer img {
+  margin-top: 30px;
+}
+
+.kontak-footer h1 {
+  margin-top: -10px;
+  font-size: 15px;
+  margin-left: 40px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  line-height: 22px;
+  color: #4d002f;
+  font-weight: 500;
+}
+
+.kontak-footer1 p {
+  margin-top: 50px;
+  margin-left: 30px;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 22px;
+}
+
+.kontak-footer2 p {
+  margin-top: 70px;
+  margin-left: 30px;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.kontak-footer2 p:hover {
+  text-shadow: 1px 1px 2px rgb(35, 35, 35);
+  transition: 0.3s;
+}
+
+.kontak-footer2 p a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.portofolio-email {
+  margin-top: 20px;
+}
+
+/* KONTAK */
+
+#hero-kontak {
+  height: 500px;
+  width: 1275px;
+  background-color: #ff0062;
+}
+
+.kontak-h1 {
+  margin-top: 210px;
+  margin-left: 40px;
+  font-weight: 600;
+}
+
+.kontak-p {
+  margin-left: 40px;
+  font-size: 17px;
+  margin-top: 20px;
+  color: #ffc800;
+}
+
+.card-kontak {
+  margin-top: 150px;
+}
+
+#contact-person {
+  height: 700px;
+  width: 1275px;
+}
+
+.card-kontak1 {
+  margin-top: 150px;
+  margin-left: 30px;
+}
+
+.person-h1 {
+  margin-top: 40px;
+  color: #4d002f;
+  font-weight: bold;
+}
+
+.card-kontak1 {
+  height: 350px;
+  width: 450px;
+  background: linear-gradient(200deg, #ffc800, #ff009d);
+  margin-top: 40px;
+  margin-left: 150px;
+  border-radius: 10px;
+}
+
+.card-kontak1 img {
+  height: 320px;
+  width: 250px;
+  margin-top: 45px;
+  margin-left: 100px;
+}
+
+.card-kontak1 a {
+  margin-left: 124px;
+}
+
+.card-kontak1 a:hover {
+  box-shadow: 2px 2px 7px rgb(63, 63, 63);
+  transition: 0.3s;
+}
+
+.card-kontak2 {
+  height: 350px;
+  width: 450px;
+  background: linear-gradient(200deg, #ffc800, #ff009d);
+  margin-top: 40px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.card-kontak2 img {
+  height: 320px;
+  width: 250px;
+  margin-top: 45px;
+  margin-left: 110px;
+}
+
+.card-kontak2 a {
+  margin-left: 124px;
+}
+
+.card-kontak2 a:hover {
+  box-shadow: 2px 2px 7px rgb(63, 63, 63);
+  transition: 0.3s;
+}
+
+#sosial-media {
+  width: 100%;
+  height: 300px;
+  background-color: #ff0062;
+}
+
+.card-media {
+  height: 420px;
+  width: 800px;
+  background-color: #ffffff;
+  margin-top: 100px;
+  margin-left: 150px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+}
+
+.kontak-kiri h3 {
+  margin-top: 40px;
+  margin-left: 40px;
+  font-weight: 600;
+  font-size: 40px;
+  color: #ffc800;
+}
+
+.kontak-kiri p {
+  margin-top: 20px;
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #4d002f;
+}
+
+.kontak-kanan {
+  padding-left: 400px;
+  margin-top: -200px;
+  height: 400px;
+  width: 1000px;
+}
+
+.kontak-kanan p {
+  font-size: 20px;
+  color: #4d002f;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#footer-kontak {
+  margin-top: 100px;
+}
+
+/* TESTIMONI */
+
+#hero-testi {
+  height: 500px;
+  width: 1275px;
+  background-color: #ff0062;
+}
+
+.testi-h1 {
+  margin-top: 210px;
+  margin-left: 40px;
+  font-weight: 600;
+}
+
+.card-loctesti {
+  padding-top: 130px;
+  padding-left: 50px;
+}
+
+#isi-testimoni {
+  padding: 70px 0;
+  background-color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.card-chat {
+  height: 430px;
+  width: 260px;
+  border-radius: 6px;
+  margin-top: 30px;
+}
+
+.card-chat img {
+  height: 450px;
+  width: 260px;
+  border-radius: 6px;
+}
+.card-chat:hover {
+  box-shadow: 3px 3px 20px gray;
+  transition: 0.3s;
+}
+
+/* DESAIN GRAFIS */
+
+.image-desain {
+  height: 510px;
+  width: 1275px;
+  padding-left: 0%;
+  margin-top: 80px;
+}
+
+#penawaran {
+  padding: 100px 0;
+  background-color: #ffffff;
+  padding-bottom: 100px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #4d002f;
+}
+
+p {
+  font-size: 15px;
+}
+
+#why {
+  padding-top: 80px;
+}
+
+#pilihan {
+  margin-top: 0px;
+  background-color: #f2fbff;
+  height: 420px;
+}
+
+.pilihan-teks {
+  margin-top: 50px;
+}
+
+.pilihan-img {
+  width: 800px;
+  height: 200px;
+}
+
+.foto-join {
+  width: 600px;
+  height: 500px;
+  padding-top: 10px;
+}
+
+.set-join {
+  display: flex;
+  flex-direction: row;
+}
+
+.p-join {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 15px;
+  font-size: 100px;
+}
+
+.set-join img {
+  width: 60px;
+  height: 65px;
+  margin-top: 10px;
+}
+
+/* website */
+
+.foto-join_web {
+  width: 450px;
+  height: 500px;
+  padding-top: 10px;
+  margin-left: 50px;
+}
+
+#pilihan_web {
+  background-color: #f2fbff;
+  height: 270px;
+}
+
+.pilihan_web-teks {
+  margin-top: 60px;
+}
+
+/* sesmed */
